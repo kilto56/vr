@@ -8,9 +8,9 @@
 ## Exercice repérage des erreurs à faire
   Voici ci dessous le rendu dans la console après avoir corrigé toutes les erreurs présentes dans le code de person.cs
 
-> Sarah a 21.
-> Bon anniversaire Marc Eurindelebile !! Tu as maintenant 36 !!
-> Sarah
-> Croche
-> 21
-> Femme
+>>> Sarah a 21.
+>>> Bon anniversaire Marc Eurindelebile !! Tu as maintenant 36 !!
+>>> Sarah
+>>> Croche
+>>> 21
+>>> Femme
