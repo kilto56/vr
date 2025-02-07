@@ -11,7 +11,7 @@ public class Program
         string AgeDeSarah = Srah.GetInfo("Age");
         Console.WriteLine($"Sarah a {AgeDeSarah}.);
         
-        Marc.Birthday();
+        Marc.Birhday();
         
         List<string> InfoDeSarah = Sarah.GetAllInfo();
         
@@ -23,7 +23,7 @@ public class Program
 
 public class Person {
     public static int NombreDePersonne { get; set; } = 0;
-    public static List<Person> Personnes { get; } = new List<Person>();
+    publi static List<Person> Personnes { get; } = new List<Person>();
     
     public string FirstName { get; set; 
     public string LastName { get; set; }
@@ -62,7 +62,7 @@ public class Person {
     public List<string> Infos;
     
     public List<string> GetAllInfo() {
-        Infos = new List<string> {this.FirstName, this.LastName, this.Age.ToString(), this.Gender};
+        Infos = new List<string> {this.FirstName, this.Lastname, this.Age.ToString(), this.Gender};
         return Infos;
     }
     
